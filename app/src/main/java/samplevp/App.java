@@ -3,12 +3,13 @@
  */
 package samplevp;
 
+import java.text.DecimalFormat;
+import java.util.InputMismatchException;
+
+
 public class App {
-    public String getGreeting() {
-        return "Hello World!";
-    }
 
     public static void main(String[] args) {
-        System.out.println(new App().getGreeting());
+        InterfaceSample sample = new InterfaceSample();
     }
 }
